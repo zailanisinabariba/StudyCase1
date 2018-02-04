@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context="com.tugas.zailanisinabariba.ZAILANI_1202154183.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="MAKAN MALAM"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="dengan Dia"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <EditText
+        android:id="@+id/menu"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nasi Uduk"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <EditText
+        android:id="@+id/porsi"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="2"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="329dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eatbus"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apnormal"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</LinearLayout>
